@@ -4,7 +4,7 @@ import math
 import time
 
 car_detect = cv2.CascadeClassifier('car_detect_harrcascade.xml')
-video = cv2.VideoCapture('highway.mp4')
+video = cv2.VideoCapture('road.mp4')
 
 
 # Dinh nghia cac tham so dai , rong
